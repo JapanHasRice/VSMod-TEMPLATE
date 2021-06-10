@@ -50,7 +50,7 @@
   </ItemGroup>
 
   <Target Name="PackageRelease" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Release'">
-    <ZipDirectory DestinationFile="bin/RELEASE/$(TargetName).zip" SourceDirectory="$(TargetDir)" Overwrite="false" />
+    <ZipDirectory DestinationFile="bin/RELEASE/$(TargetName)_for_$(TargetGameVersion).rc.zip" SourceDirectory="$(TargetDir)" Overwrite="false" />
   </Target>
 
   <Target Name="Package" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Debug'">
