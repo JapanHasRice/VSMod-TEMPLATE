@@ -4,7 +4,7 @@
   "modid": "template",
   "version": "1.0.0",
   "description": "A template project for Vintage Story modding.",
-  "website": "https://github.com/JapanHasRice/VSMod-TEMPLATE",
+  "website": "https://github.com/PJ-Mog/VSMod-TEMPLATE",
   "authors": [ "JapanHasRice" ],
   "contributors": [],
   "dependencies": {
